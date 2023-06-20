@@ -1,19 +1,19 @@
-.top {
+.header {
   background-color: #222222;
   padding: 30px 0;
 }
 
-.topSection {
+.headerSection {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.topLogoImg {
+.headerLogoImg {
   width: 120px;
 }
 
-.topBuyButton {
+.headerBuyButton {
   background-color: #d22630;
   color: #ffffff;
   font-size: 10px;
@@ -25,6 +25,6 @@
   transition: 1s;
 }
 
-.topBuyButton:hover {
+.headerBuyButton:hover {
   background-color: #bc0710;
 }
