@@ -1,0 +1,30 @@
+.top {
+  background-color: #222222;
+  padding: 30px 0;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topLogoImg {
+  width: 120px;
+}
+
+.topBuyButton {
+  background-color: #d22630;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 8px 18px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 1s;
+}
+
+.topBuyButton:hover {
+  background-color: #bc0710;
+}
