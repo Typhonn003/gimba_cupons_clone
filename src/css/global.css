@@ -1,6 +1,7 @@
 .globalStyle {
   margin: 0;
   padding: 0;
+  outline: none;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -9,8 +10,8 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 80rem) {
   .container {
-    width: 1280px;
+    width: 80rem;
   }
 }
