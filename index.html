@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="src/css/main/banner.css" />
     <link rel="stylesheet" href="src/css/main/cupomArea.css" />
     <link rel="stylesheet" href="src/css/card/default.css" />
+    <link rel="stylesheet" href="src/css/card/app.css" />
     <link rel="stylesheet" href="src/css/main/cupomExclusiveArea.css" />
     <link rel="stylesheet" href="src/css/main/rulesArea.css" />
     <link rel="stylesheet" href="src/css/footer/footer.css" />
@@ -19,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <script src="src/js/index.js" type="module" defer></script>
   </head>
   <body class="globalStyle">
     <header class="headerContainer">
@@ -47,45 +49,48 @@
         </span>
       </section>
       <section class="cupomContainer">
-        <ul>
-          <!--  -->
-          <li class="cardDefault">
-            <div class="cardTop">
-              <img src="src/img/202306-cupom-adega.jpg" alt="" />
-            </div>
-            <div class="cardBot">
-              <h2 class="cardTitle">Abasteça sua adega</h2>
-              <p class="cardDescription">
-                20% de desconto nos melhores rótulos!
-              </p>
-              <div class="cardCupom">
-                <span class="cupomValue">VINHO20</span>
-                <button class="cupomBtnCopy">Copiar cupom</button>
-              </div>
-              <span class="cardAppCupom">
-                no app utilize o cupom <strong>20VINHO</strong>
-              </span>
-              <div class="cardButtons">
-                <a
-                  href="https://api.whatsapp.com/send?text=Aqui%20no%20Gimba%20tem%20CUPONS%20com%20desconto%20exclusivos!%20https%3A%2F%2Fwww.gimba.com.br%2Fcupons"
-                  target="_blank"
-                >
-                  <img
-                    src="src/img/compartilhar.png"
-                    alt="Ícone de compartilhamento"
-                  />
-                </a>
-                <a href="https://bit.ly/3C4SrAr" target="_blank">
-                  <img src="src/img/acessar.png" alt="Ícone de acesso" />
-                  <p>Acessar categoria</p>
-                </a>
-              </div>
-            </div>
-          </li>
-          <!--  -->
-        </ul>
+        <ul id="cupomCards"></ul>
         <div class="cupomExclusiveContainer">
           <h2 class="cupomExclusiveText">Cupons Exclusivos para o APP</h2>
+          <div class="cupomExclusiveApp">
+            <div class="cardApp">
+              <div class="cardAppTop">
+                <img src="src/img/202306-cupom-chamex.jpg" alt="" />
+              </div>
+              <div class="cardAppBot">
+                <h2 class="cardAppTitle">
+                  Crie seu papel no mundo com produtos Chamex!
+                </h2>
+                <p class="cardAppDescription">
+                  20% de desconto em resmas A4 Chamex!
+                </p>
+                <span class="cardAppCupom">
+                  no app utilize o cupom <strong>CHAMEX20</strong>
+                </span>
+                <div class="cardAppButtons">
+                  <a
+                    href="https://api.whatsapp.com/send?text=Aqui%20no%20Gimba%20tem%20CUPONS%20com%20desconto%20exclusivos!%20https%3A%2F%2Fwww.gimba.com.br%2Fcupons"
+                    target="_blank"
+                  >
+                    <img
+                      src="src/img/compartilhar.png"
+                      alt="Ícone de compartilhamento"
+                    />
+                  </a>
+                  <a href="https://bit.ly/45M4Ffd" target="_blank">
+                    <img src="src/img/acessar.png" alt="Ícone de acesso" />
+                    <p>Acessar categoria</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="appInfo">
+              <img
+                src="src/img/202306-cupom-app.jpg"
+                alt="Imagem com instruções de download do app do Gimba"
+              />
+            </div>
+          </div>
         </div>
         <div class="rulesContainer">
           <span>Todos os cupons têm validade até 30/06/2023.</span>

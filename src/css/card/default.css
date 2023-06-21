@@ -1,4 +1,5 @@
 .cardDefault {
+  background-color: #ffffff;
   width: 100%;
   border: 0.0625rem solid #b0b0b0;
   border-radius: 0.3125rem;
@@ -98,5 +99,81 @@
 
   .cardDescription {
     font-size: 0.9375rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .cardDefault {
+    max-width: 49%;
+  }
+
+  .cardTitle {
+    font-size: 0.875rem;
+  }
+
+  .cardDescription {
+    font-size: 0.8125rem;
+  }
+}
+
+@media (min-width: 1040px) {
+  .cardDefault:first-child {
+    max-width: 100%;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .cardDefault:first-child .cardTop {
+    width: 70%;
+  }
+
+  .cardDefault:first-child .cardTop img {
+    content: url("/src/img/202306-cupom-adega_topo.jpg");
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cardDefault:first-child .cardBot {
+    width: 30%;
+    height: 100%;
+    padding: 1.25rem;
+    gap: 0.375rem;
+  }
+
+  .cardDefault:last-child {
+    max-width: 100%;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .cardDefault:last-child .cardTop {
+    width: 70%;
+  }
+
+  .cardDefault:last-child .cardTop img {
+    content: url("/src/img/202306-cupom-destilado_topo.jpg");
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cardDefault:last-child .cardBot {
+    width: 30%;
+    height: 100%;
+    padding: 1.25rem;
+    gap: 0.375rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .cardDefault {
+    max-width: 32%;
+  }
+
+  .cardTitle {
+    font-size: 0.875rem;
+  }
+
+  .cardDescription {
+    font-size: 0.8125rem;
   }
 }
