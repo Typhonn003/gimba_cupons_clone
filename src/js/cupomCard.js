@@ -1,3 +1,6 @@
+import { confirmModal } from "./modal.js";
+import { body } from "./index.js";
+
 export const cupomCard = (data) => {
   const whatsappLink =
     "https://api.whatsapp.com/send?text=Aqui%20no%20Gimba%20tem%20CUPONS%20com%20desconto%20exclusivos!%20https%3A%2F%2Fwww.gimba.com.br%2Fcupons";
@@ -50,6 +53,10 @@ export const cupomCard = (data) => {
   acessImg.setAttribute("alt", "Imagem de ícone de acessar categoria");
   acessBtn.setAttribute("href", link);
   acessBtn.setAttribute("target", "_blank");
+
+  copyButton.addEventListener("click", () => {
+    body.appendChild(confirmModal()), navigator.clipboard.writeText(cupomCode);
+  });
 
   cardTop.appendChild(cardTopImg);
   shareBtn.appendChild(shareImg);
