@@ -1,5 +1,5 @@
 .header-container {
-  background-color: #222222;
+  background-color: var(--color-black1);
   padding: 30px 0;
 }
 
@@ -19,8 +19,8 @@
 }
 
 .header-buy-button {
-  background-color: #d22630;
-  color: #ffffff;
+  background-color: var(--color-red1);
+  color: var(--color-white);
   font-size: 8px;
   font-weight: 700;
   padding: 8px 8px;
@@ -30,7 +30,7 @@
 }
 
 .header-buy-button:hover {
-  background-color: #bc0710;
+  background-color: var(--color-red2);
 }
 
 @media (min-width: 375px) {

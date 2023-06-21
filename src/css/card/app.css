@@ -1,7 +1,7 @@
 .card-app {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   width: 100%;
-  border: 1px solid #b0b0b0;
+  border: 1px solid var(--color-grey2);
   border-radius: 5px;
   overflow: hidden;
   display: flex;
@@ -34,12 +34,12 @@
 }
 
 .card-app-cupom {
-  color: #275bd3;
+  color: var(--color-darkBlue);
   font-size: 14px;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  border: 2px solid #275bd3;
+  border: 2px solid var(--color-darkBlue);
   border-radius: 5px;
   padding: 8px;
 }
@@ -55,7 +55,7 @@
 }
 
 .card-app-buttons a {
-  color: #000000;
+  color: var(--color-black2);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 10px;
@@ -68,12 +68,12 @@
 }
 
 .app-info {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   width: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  border: 1px solid #b0b0b0;
+  border: 1px solid var(--color-grey2);
   border-radius: 5px;
 }
 

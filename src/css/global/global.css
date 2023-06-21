@@ -37,3 +37,16 @@ footer, header, hgroup, menu, nav, section {
 ol, ul {
 	list-style: none;
 }
+
+:root {
+  --color-white: #ffffff;
+  --color-grey1: #ebebeb;
+  --color-grey2: #b0b0b0;
+  --color-darkBlue: #275bd3;
+  --color-lightBlue: #7cd1f9;
+  --color-red1: #d22630;
+  --color-red2: #bc0710;
+  --color-black1: #222222;
+  --color-black2: #000000;
+  --color-modal: #00000060;
+}

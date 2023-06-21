@@ -1,7 +1,7 @@
 .footer-container {
-  background-color: #222222;
+  background-color: var(--color-black1);
   padding: 35px 0;
-  color: #ffffff;
+  color: var(--color-white);
   font-size: 11px;
   margin: 0;
   display: flex;
@@ -19,5 +19,5 @@
 }
 
 .footer-infos a {
-  color: #ffffff;
+  color: var(--color-white);
 }

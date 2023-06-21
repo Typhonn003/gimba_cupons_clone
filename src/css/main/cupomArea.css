@@ -1,9 +1,9 @@
 .cupom-area-background {
-  background-color: #ebebeb;
+  background-color: var(--color-grey1);
 }
 
 .cupom-container {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   display: flex;
   flex-direction: column;
   gap: 48px;

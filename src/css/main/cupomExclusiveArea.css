@@ -1,5 +1,5 @@
 .cupom-exclusive-container {
-  background-color: #275bd3;
+  background-color: var(--color-darkBlue);
   width: 100%;
   margin: 0 auto;
   border-radius: 5px;
@@ -10,7 +10,7 @@
 }
 
 .cupom-exclusive-text {
-  color: #ffffff;
+  color: var(--color-white);
   margin: 0;
   font-size: 26px;
   font-weight: 600;

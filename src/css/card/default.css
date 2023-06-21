@@ -1,7 +1,7 @@
 .card-default {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   width: 100%;
-  border: 1px solid #b0b0b0;
+  border: 1px solid var(--color-grey2);
   border-radius: 5px;
   overflow: hidden;
   display: flex;
@@ -40,16 +40,15 @@
 
 .cupom-value {
   width: 100%;
-  display: block;
   padding: 14px;
-  border: 2px solid #d22630;
+  border: 2px solid var(--color-red1);
   font-size: 18px;
   font-weight: 600;
   text-align: center;
 }
 
 .cupom-btn-copy {
-  background-color: #d22630;
+  background-color: var(--color-red1);
   color: #ffffff;
   border: none;
   border-radius: 0 5px 5px 0;
@@ -60,12 +59,12 @@
 }
 
 .card-app-cupom {
-  color: #275bd3;
+  color: var(--color-darkBlue);
   font-size: 14px;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  border: 2px solid #275bd3;
+  border: 2px solid var(--color-darkBlue);
   border-radius: 5px;
   padding: 8px;
 }
@@ -81,7 +80,7 @@
 }
 
 .card-btns a {
-  color: #000000;
+  color: var(--color-black2);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 10px;

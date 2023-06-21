@@ -6,7 +6,7 @@
 
 .banner-text {
   margin: 0;
-  color: #ffffff;
+  color: var(--color-white);
   display: flex;
   justify-content: center;
 }
