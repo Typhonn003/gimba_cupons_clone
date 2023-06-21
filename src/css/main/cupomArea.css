@@ -1,8 +1,8 @@
-.mainBackground {
+.cupom-area-background {
   background-color: #ebebeb;
 }
 
-.cupomContainer {
+.cupom-container {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -23,12 +23,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
 }
 
 @media (min-width: 1280px) {
-  .cupomContainer {
+  .cupom-container {
     padding: 1.875rem;
   }
 }

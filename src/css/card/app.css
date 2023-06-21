@@ -1,4 +1,4 @@
-.cardApp {
+.card-app {
   background-color: #ffffff;
   width: 100%;
   border: 0.0625rem solid #b0b0b0;
@@ -9,32 +9,32 @@
   gap: 1rem;
 }
 
-.cardAppTop {
+.card-app-top {
   width: 100%;
 }
 
-.cardAppTop img {
+.card-app-top img {
   width: 100%;
 }
 
-.cardAppBot {
+.card-app-bot {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 0 1.25rem 1.25rem;
 }
 
-.cardAppTitle {
+.card-app-title {
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-.cardAppDescription {
+.card-app-description {
   font-size: 0.75rem;
   color: #222222;
 }
 
-.cardAppCupom {
+.card-app-cupom {
   color: #275bd3;
   font-size: 14px;
   font-weight: 600;
@@ -45,17 +45,17 @@
   padding: 8px;
 }
 
-.cardAppButtons {
+.card-app-buttons {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.cardAppButtons img {
+.card-app-buttons img {
   width: 20px;
 }
 
-.cardAppButtons a {
+.card-app-buttons a {
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
@@ -68,48 +68,48 @@
   text-align: end;
 }
 
-.appInfo {
+.app-info {
   width: 100%;
   overflow: hidden;
 }
 
-.appInfo img {
+.app-info img {
   width: 100%;
   border: 1px solid #b0b0b0;
   border-radius: 0.3125rem;
 }
 
 @media (min-width: 680px) {
-  .cardAppTitle {
+  .card-app-title {
     font-size: 1.125rem;
   }
 
-  .cardAppDescription {
+  .card-app-description {
     font-size: 0.9375rem;
   }
 }
 
 @media (min-width: 780px) {
-  .cardApp,
-  .appInfo {
+  .card-app,
+  .app-info {
     max-width: 35%;
   }
 
-  .cardApp,
-  .appInfo {
+  .card-app,
+  .app-info {
     justify-content: space-between;
     gap: 0.5rem;
   }
 
-  .cardAppTitle {
+  .card-app-title {
     font-size: 0.875rem;
   }
 
-  .cardAppBot {
+  .card-app-bot {
     gap: 0.5rem;
   }
 
-  .cardAppButtons {
+  .card-app-buttons {
     margin: 0;
   }
 }

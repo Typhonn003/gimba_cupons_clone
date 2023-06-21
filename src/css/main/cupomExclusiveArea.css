@@ -1,4 +1,4 @@
-.cupomExclusiveContainer {
+.cupom-exclusive-container {
   background-color: #275bd3;
   width: 100%;
   margin: 0 auto;
@@ -9,7 +9,7 @@
   gap: 1rem;
 }
 
-.cupomExclusiveText {
+.cupom-exclusive-text {
   color: #ffffff;
   margin: 0;
   font-size: 1.625rem;
@@ -17,7 +17,7 @@
   text-align: center;
 }
 
-.cupomExclusiveApp {
+.cupom-exclusive-app {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,17 +25,17 @@
 }
 
 @media (min-width: 600px) {
-  .cupomExclusiveContainer {
+  .cupom-exclusive-container {
     padding: 30px 70px;
   }
 
-  .cupomExclusiveText {
+  .cupom-exclusive-text {
     font-size: 2.1875rem;
   }
 }
 
 @media (min-width: 780px) {
-  .cupomExclusiveApp {
+  .cupom-exclusive-app {
     flex-direction: row;
   }
 }
