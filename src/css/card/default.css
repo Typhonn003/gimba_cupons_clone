@@ -1,44 +1,44 @@
-.cardDefault {
+.card-default {
   background-color: #ffffff;
   width: 100%;
-  border: 0.0625rem solid #b0b0b0;
-  border-radius: 0.3125rem;
+  border: 1px solid #b0b0b0;
+  border-radius: 5px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 14px;
 }
 
-.cardTop {
+.card-top {
   width: 100%;
 }
 
-.cardTop img {
+.card-top img {
   width: 100%;
 }
 
-.cardBot {
+.card-bot {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  padding: 0 1.25rem 1.25rem;
+  gap: 16px;
+  padding: 0 20px 20px;
 }
 
-.cardTitle {
-  font-size: 1rem;
+.card-title {
+  font-size: 16px;
   text-transform: uppercase;
 }
 
-.cardDescription {
-  font-size: 0.75rem;
+.card-description {
+  font-size: 12px;
   color: #222222;
 }
 
-.cardCupom {
+.card-cupom {
   display: flex;
 }
 
-.cupomValue {
+.cupom-value {
   width: 100%;
   display: block;
   padding: 14px;
@@ -48,7 +48,7 @@
   text-align: center;
 }
 
-.cupomBtnCopy {
+.cupom-btn-copy {
   background-color: #d22630;
   color: #ffffff;
   border: none;
@@ -56,124 +56,125 @@
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
+  outline: none;
 }
 
-.cardAppCupom {
+.card-app-cupom {
   color: #275bd3;
   font-size: 14px;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  border: 0.125rem solid #275bd3;
-  border-radius: 0.3125rem;
+  border: 2px solid #275bd3;
+  border-radius: 5px;
   padding: 8px;
 }
 
-.cardButtons {
+.card-btns {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.cardButtons img {
+.card-btns img {
   width: 20px;
 }
 
-.cardButtons a {
+.card-btns a {
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 0.625rem;
+  font-size: 10px;
   max-width: 90px;
   font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 8px;
   text-align: end;
 }
 
 @media (min-width: 680px) {
-  .cardTitle {
-    font-size: 1.125rem;
+  .card-title {
+    font-size: 18px;
   }
 
-  .cardDescription {
-    font-size: 0.9375rem;
+  .card-description {
+    font-size: 15px;
   }
 }
 
 @media (min-width: 800px) {
-  .cardDefault {
-    max-width: 49%;
+  .card-default {
+    max-width: 48.5%;
   }
 
-  .cardTitle {
-    font-size: 0.875rem;
+  .card-title {
+    font-size: 14px;
   }
 
-  .cardDescription {
-    font-size: 0.8125rem;
+  .card-description {
+    font-size: 13px;
   }
 }
 
 @media (min-width: 1040px) {
-  .cardDefault:first-child {
+  .card-default:first-child {
     max-width: 100%;
     flex-direction: row;
     gap: 0;
   }
 
-  .cardDefault:first-child .cardTop {
+  .card-default:first-child .card-top {
     width: 70%;
   }
 
-  .cardDefault:first-child .cardTop img {
+  .card-default:first-child .card-top img {
     content: url("/src/img/202306-cupom-adega_topo.jpg");
     height: 100%;
     object-fit: cover;
   }
 
-  .cardDefault:first-child .cardBot {
+  .card-default:first-child .card-bot {
     width: 30%;
     height: 100%;
-    padding: 1.25rem;
-    gap: 0.375rem;
+    padding: 20px;
+    gap: 6px;
   }
 
-  .cardDefault:last-child {
+  .card-default:last-child {
     max-width: 100%;
     flex-direction: row;
     gap: 0;
   }
 
-  .cardDefault:last-child .cardTop {
+  .card-default:last-child .card-top {
     width: 70%;
   }
 
-  .cardDefault:last-child .cardTop img {
+  .card-default:last-child .card-top img {
     content: url("/src/img/202306-cupom-destilado_topo.jpg");
     height: 100%;
     object-fit: cover;
   }
 
-  .cardDefault:last-child .cardBot {
+  .card-default:last-child .card-bot {
     width: 30%;
     height: 100%;
-    padding: 1.25rem;
-    gap: 0.375rem;
+    padding: 20px;
+    gap: 6px;
   }
 }
 
 @media (min-width: 1300px) {
-  .cardDefault {
+  .card-default {
     max-width: 32%;
   }
 
-  .cardTitle {
-    font-size: 0.875rem;
+  .card-title {
+    font-size: 14px;
   }
 
-  .cardDescription {
-    font-size: 0.8125rem;
+  .card-description {
+    font-size: 13px;
   }
 }

@@ -18,8 +18,8 @@ export const confirmModal = () => {
   const sucessMessage = document.createElement("p");
   const confirmBtn = document.createElement("button");
 
-  backgroundContainer.classList = "modalBackground";
-  modalContainer.classList = "modalContainer";
+  backgroundContainer.classList = "modal-background";
+  modalContainer.classList = "modal-container";
   swalContainer.classList = "swal-icon swal-icon--success";
   swalLineLong.classList =
     "swal-icon--success__line swal-icon--success__line--long";
@@ -27,8 +27,8 @@ export const confirmModal = () => {
     "swal-icon--success__line swal-icon--success__line--tip";
   swalRing.classList = "swal-icon--success__ring";
   swalCorners.classList = "swal-icon--success__hide-corners";
-  messageContainer.classList = "messageBot";
-  confirmBtn.classList = "confirmBtn";
+  messageContainer.classList = "message-bot";
+  confirmBtn.classList = "confirm-btn";
 
   sucessTitle.innerText = "Cupom Copiado!";
   sucessMessage.innerText = "Boas compras!";

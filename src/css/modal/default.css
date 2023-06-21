@@ -1,4 +1,4 @@
-.modalBackground {
+.modal-background {
   width: 100vw;
   height: 100vh;
   background-color: #00000060;
@@ -10,20 +10,54 @@
   justify-content: center;
 }
 
-.modalContainer {
+.modal-container {
   box-sizing: border-box;
   width: 95%;
   max-width: 478px;
   height: 300px;
   background-color: #ffffff;
   padding: 25px 20px;
-  border-radius: 0.3125rem;
+  border-radius: 5px;
   position: relative;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
-.modalContainer.scale-out-center {
+.modal-container.scale-out-center {
   animation: scale-out-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.message-bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.message-bot h2 {
+  font-size: 28px;
+  color: #000000a6;
+  font-weight: 600;
+}
+
+.message-bot p {
+  font-size: 16px;
+  color: #000000a3;
+  font-weight: 400;
+}
+
+.confirm-btn {
+  background-color: #7cd1f9;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 24px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
 }
 
 @keyframes scale-up-center {
@@ -42,38 +76,4 @@
   100% {
     opacity: 0;
   }
-}
-
-.messageBot {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.messageBot h2 {
-  font-size: 1.75rem;
-  color: #000000a6;
-  font-weight: 600;
-}
-
-.messageBot p {
-  font-size: 16px;
-  color: #000000a3;
-  font-weight: 400;
-}
-
-.confirmBtn {
-  background-color: #7cd1f9;
-  color: #ffffff;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 5px;
-  border: none;
-  padding: 10px 24px;
-  text-transform: uppercase;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  cursor: pointer;
 }

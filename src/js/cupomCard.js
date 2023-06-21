@@ -25,16 +25,16 @@ export const cupomCard = (data) => {
   const acessImg = document.createElement("img");
   const acessMsg = document.createElement("p");
 
-  cardContainer.classList = "cardDefault";
-  cardTop.classList = "cardTop";
-  cardBot.classList = "cardBot";
-  cardTitle.classList = "cardTitle";
-  cardDescription.classList = "cardDescription";
-  cardCupom.classList = "cardCupom";
-  cupomValue.classList = "cupomValue";
-  copyButton.classList = "cupomBtnCopy";
-  cardAppCupom.classList = "cardAppCupom";
-  cardBtns.classList = "cardButtons";
+  cardContainer.classList = "card-default";
+  cardTop.classList = "card-top";
+  cardBot.classList = "card-bot";
+  cardTitle.classList = "card-title";
+  cardDescription.classList = "card-description";
+  cardCupom.classList = "card-cupom";
+  cupomValue.classList = "cupom-value";
+  copyButton.classList = "cupom-btn-copy";
+  cardAppCupom.classList = "card-app-cupom";
+  cardBtns.classList = "card-btns";
 
   cardTitle.innerText = title;
   cardDescription.innerText = description;

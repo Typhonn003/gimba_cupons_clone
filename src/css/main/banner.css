@@ -1,7 +1,7 @@
 .banner-area {
   background: url("/src/img/202304-landing-page-cupom-v1.jpg") no-repeat center
     center;
-  padding: 1.25rem;
+  padding: 20px;
 }
 
 .banner-text {
@@ -12,43 +12,43 @@
 }
 
 .banner-title {
-  font-size: 3.625rem;
+  font-size: 58px;
   font-weight: 800;
 }
 
 .banner-subtitle {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .banner-info {
-  font-size: 0.8125rem;
+  font-size: 13px;
 }
 
 @media (min-width: 375px) {
   .banner-title {
-    font-size: 4.0625rem;
+    font-size: 65px;
   }
 
   .banner-subtitle {
-    font-size: 1.375rem;
+    font-size: 22px;
   }
 }
 
 @media (min-width: 680px) {
   .banner-area {
-    padding: 2.5rem;
+    padding: 40px;
   }
 
   .banner-title {
-    font-size: 6.5625rem;
+    font-size: 105px;
   }
 
   .banner-subtitle {
-    font-size: 2.25rem;
+    font-size: 36px;
   }
 
   .banner-info {
-    font-size: 1.125rem;
+    font-size: 18px;
   }
 }

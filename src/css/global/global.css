@@ -20,14 +20,14 @@ time, mark, audio, video {
 	outline: none;
 	box-sizing: border-box;
 	::-webkit-scrollbar {
-	  width: 0.625rem;
+	  width: 10px;
 	}
 	::-webkit-scrollbar-track {
 	  background-color: #f1f1f1;
 	}
 	::-webkit-scrollbar-thumb {
 	  background-color: #a4a4a4;
-	  border-radius: 0.375rem;
+	  border-radius: 6px;
 	}
   }
 article, aside, details, figcaption, figure, 

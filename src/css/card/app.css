@@ -1,12 +1,12 @@
 .card-app {
   background-color: #ffffff;
   width: 100%;
-  border: 0.0625rem solid #b0b0b0;
-  border-radius: 0.3125rem;
+  border: 1px solid #b0b0b0;
+  border-radius: 5px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 16px;
 }
 
 .card-app-top {
@@ -20,17 +20,17 @@
 .card-app-bot {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  padding: 0 1.25rem 1.25rem;
+  gap: 16px;
+  padding: 0 20px 20px;
 }
 
 .card-app-title {
-  font-size: 1rem;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
 .card-app-description {
-  font-size: 0.75rem;
+  font-size: 12px;
   color: #222222;
 }
 
@@ -40,8 +40,8 @@
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  border: 0.125rem solid #275bd3;
-  border-radius: 0.3125rem;
+  border: 2px solid #275bd3;
+  border-radius: 5px;
   padding: 8px;
 }
 
@@ -59,12 +59,12 @@
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 0.625rem;
+  font-size: 10px;
   max-width: 90px;
   font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 8px;
   text-align: end;
 }
 
@@ -76,16 +76,16 @@
 .app-info img {
   width: 100%;
   border: 1px solid #b0b0b0;
-  border-radius: 0.3125rem;
+  border-radius: 5px;
 }
 
 @media (min-width: 680px) {
   .card-app-title {
-    font-size: 1.125rem;
+    font-size: 18px;
   }
 
   .card-app-description {
-    font-size: 0.9375rem;
+    font-size: 15px;
   }
 }
 
@@ -98,15 +98,15 @@
   .card-app,
   .app-info {
     justify-content: space-between;
-    gap: 0.5rem;
+    gap: 8px;
   }
 
   .card-app-title {
-    font-size: 0.875rem;
+    font-size: 14px;
   }
 
   .card-app-bot {
-    gap: 0.5rem;
+    gap: 8px;
   }
 
   .card-app-buttons {
