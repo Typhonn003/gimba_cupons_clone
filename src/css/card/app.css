@@ -6,7 +6,6 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .card-app-top {
@@ -21,7 +20,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 0 20px 20px;
+  padding: 20px;
 }
 
 .card-app-title {
@@ -69,21 +68,20 @@
 }
 
 .app-info {
+  background-color: #ffffff;
   width: 100%;
   overflow: hidden;
-}
-
-.app-info img {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #b0b0b0;
   border-radius: 5px;
 }
 
-@media (min-width: 680px) {
-  .card-app-title {
-    font-size: 18px;
-  }
+.app-info img {
+  object-fit: fill;
+}
 
+@media (min-width: 600px) {
   .card-app-description {
     font-size: 15px;
   }
@@ -92,24 +90,18 @@
 @media (min-width: 780px) {
   .card-app,
   .app-info {
-    max-width: 35%;
-  }
-
-  .card-app,
-  .app-info {
-    justify-content: space-between;
-    gap: 8px;
+    max-width: 400px;
   }
 
   .card-app-title {
     font-size: 14px;
   }
 
-  .card-app-bot {
-    gap: 8px;
+  .card-app-description {
+    font-size: 13px;
   }
 
-  .card-app-buttons {
-    margin: 0;
+  .card-app-bot {
+    gap: 8px;
   }
 }

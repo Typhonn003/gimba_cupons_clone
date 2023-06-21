@@ -3,7 +3,7 @@
   width: 100%;
   margin: 0 auto;
   border-radius: 5px;
-  padding: 30px 10px;
+  padding: 30px 20px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -28,13 +28,13 @@
   .cupom-exclusive-container {
     padding: 30px 70px;
   }
-
-  .cupom-exclusive-text {
-    font-size: 35px;
-  }
 }
 
 @media (min-width: 780px) {
+  .cupom-exclusive-container {
+    padding: 30px 90px;
+  }
+
   .cupom-exclusive-app {
     flex-direction: row;
   }
