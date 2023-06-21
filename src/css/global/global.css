@@ -17,22 +17,23 @@ time, mark, audio, video {
 	font-size: 100%;
 	font-family: "Montserrat", sans-serif;
 	vertical-align: baseline;
-}
+	outline: none;
+	box-sizing: border-box;
+	::-webkit-scrollbar {
+	  width: 0.625rem;
+	}
+	::-webkit-scrollbar-track {
+	  background-color: #f1f1f1;
+	}
+	::-webkit-scrollbar-thumb {
+	  background-color: #a4a4a4;
+	  border-radius: 0.375rem;
+	}
+  }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 ol, ul {
 	list-style: none;
-}
-
-.container {
-  max-width: 90%;
-  margin: 0 auto;
-}
-
-@media (min-width: 80rem) {
-  .container {
-    width: 80rem;
-  }
 }

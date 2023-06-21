@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aqui no Gimba tem CUPONS com desconto exclusivos!</title>
-    <link rel="stylesheet" href="src/css/global.css" />
-    <link rel="stylesheet" href="src/css/header.css" />
-    <link rel="stylesheet" href="src/css/banner.css" />
-    <link rel="stylesheet" href="src/css/footer.css" />
+    <link rel="stylesheet" href="src/css/global/global.css" />
+    <link rel="stylesheet" href="src/css/header/header.css" />
+    <link rel="stylesheet" href="src/css/header/button.css" />
+    <link rel="stylesheet" href="src/css/main/banner.css" />
+    <link rel="stylesheet" href="src/css/main/cupomArea.css" />
+    <link rel="stylesheet" href="src/css/card/default.css" />
+    <link rel="stylesheet" href="src/css/main/cupomExclusiveArea.css" />
+    <link rel="stylesheet" href="src/css/main/rulesArea.css" />
+    <link rel="stylesheet" href="src/css/footer/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,13 +38,52 @@
         >
       </div>
     </header>
-    <main>
+    <main class="mainBackground">
       <section class="mainBanner">
         <h2 class="bannerTexts bannerTitle">CUPONS</h2>
         <h3 class="bannerTexts bannerSubtitle">Descontos exclusivos!</h3>
-        <p class="bannerTexts bannerInfo">
+        <span class="bannerTexts bannerInfo">
           Para você aproveitar as melhores ofertas!
-        </p>
+        </span>
+      </section>
+      <section class="cupomContainer">
+        <ul>
+          <!--  -->
+          <li class="cardDefault">
+            <div class="cardTop">
+              <img src="src/img/202306-cupom-adega.jpg" alt="" />
+            </div>
+            <div class="cardBot">
+              <h2 class="cardTitle">Abasteça sua adega</h2>
+              <p class="cardDescription">
+                20% de desconto nos melhores rótulos!
+              </p>
+              <span class="cardCupom">
+                no app utilize o cupom <strong>20VINHO</strong>
+              </span>
+              <div class="cardButtons">
+                <button>Compartilhar</button>
+                <button>Acessar</button>
+              </div>
+            </div>
+          </li>
+          <!--  -->
+        </ul>
+        <div class="cupomExclusiveContainer">
+          <h2 class="cupomExclusiveText">Cupons Exclusivos para o APP</h2>
+        </div>
+        <div class="rulesContainer">
+          <span>Todos os cupons têm validade até 30/06/2023.</span>
+          <span>Cupom Organização: válido para compras acima de R$100,00.</span>
+          <span>Cupom Impressão: válido para compras acima de R$200,00.</span>
+          <span>Cupom Mop: Sem valor mínimo.</span>
+          <span>Cupom SC Johnson: válido para compras acima de R$50,00.</span>
+          <span>Cupom Headphone: válido para compras acima de R$100,00.</span>
+          <span>Cupom Fitas 3M: válido para compras acima de R$50,00.</span>
+          <span>Cupom Adega: válido para compras acima de R$100,00.</span>
+          <span>Cupom Destilados: válido para compras acima de R$50,00.</span>
+          <span>Cupom Chamex: válido para compras acima de R$50,00.</span>
+        </div>
       </section>
     </main>
     <footer class="footerContainer">
@@ -50,7 +94,7 @@
         </p>
         <p>
           <strong>Endereço:</strong> Avenida Prefeito João Vilallobo Quero, 1160
-          - Jardim Belval - Barueri - SP | CEP: 06422- 122
+          - Jardim Belval - Barueri - SP | CEP: 06422-122
         </p>
       </div>
       <div class="footerInfos">

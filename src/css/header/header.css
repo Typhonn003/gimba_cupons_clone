@@ -1,0 +1,25 @@
+.headerContainer {
+  background-color: #222222;
+  padding: 1.875rem 0;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLogoImg {
+  width: 7.5rem;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 80rem;
+  }
+}
