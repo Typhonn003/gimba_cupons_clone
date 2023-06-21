@@ -34,6 +34,30 @@
 }
 
 .cardCupom {
+  display: flex;
+}
+
+.cupomValue {
+  width: 100%;
+  display: block;
+  padding: 14px;
+  border: 2px solid #d22630;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cupomBtnCopy {
+  background-color: #d22630;
+  color: #ffffff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.cardAppCupom {
   color: #275bd3;
   font-size: 14px;
   font-weight: 600;
@@ -42,6 +66,29 @@
   border: 0.125rem solid #275bd3;
   border-radius: 0.3125rem;
   padding: 8px;
+}
+
+.cardButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cardButtons img {
+  width: 20px;
+}
+
+.cardButtons a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  max-width: 90px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: end;
 }
 
 @media (min-width: 680px) {
