@@ -1,0 +1,47 @@
+.header-container {
+  background-color: var(--color-black1);
+  padding: 30px 0;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-img {
+  width: 120px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.header-buy-button {
+  background-color: var(--color-red1);
+  color: var(--color-white);
+  font-size: 8px;
+  font-weight: 700;
+  padding: 8px 8px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.header-buy-button:hover {
+  background-color: var(--color-red2);
+}
+
+@media (min-width: 375px) {
+  .header-buy-button {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}

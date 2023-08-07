@@ -1,0 +1,41 @@
+.cupom-exclusive-container {
+  background-color: var(--color-darkBlue);
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cupom-exclusive-text {
+  color: var(--color-white);
+  margin: 0;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cupom-exclusive-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+@media (min-width: 600px) {
+  .cupom-exclusive-container {
+    padding: 30px 70px;
+  }
+}
+
+@media (min-width: 780px) {
+  .cupom-exclusive-container {
+    padding: 30px 90px;
+  }
+
+  .cupom-exclusive-app {
+    flex-direction: row;
+  }
+}

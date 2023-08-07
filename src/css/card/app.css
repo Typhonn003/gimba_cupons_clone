@@ -1,0 +1,107 @@
+.card-app {
+  background-color: var(--color-white);
+  width: 100%;
+  border: 1px solid var(--color-grey2);
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-app-top {
+  width: 100%;
+}
+
+.card-app-top img {
+  width: 100%;
+}
+
+.card-app-bot {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+}
+
+.card-app-title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.card-app-description {
+  font-size: 12px;
+  color: #222222;
+}
+
+.card-app-cupom {
+  color: var(--color-darkBlue);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid var(--color-darkBlue);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.card-app-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card-app-buttons img {
+  width: 20px;
+}
+
+.card-app-buttons a {
+  color: var(--color-black2);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  max-width: 90px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: end;
+}
+
+.app-info {
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-grey2);
+  border-radius: 5px;
+}
+
+.app-info img {
+  object-fit: fill;
+}
+
+@media (min-width: 600px) {
+  .card-app-description {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 780px) {
+  .card-app,
+  .app-info {
+    max-width: 400px;
+  }
+
+  .card-app-title {
+    font-size: 14px;
+  }
+
+  .card-app-description {
+    font-size: 13px;
+  }
+
+  .card-app-bot {
+    gap: 8px;
+  }
+}
