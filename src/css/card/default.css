@@ -128,7 +128,7 @@
   }
 
   .card-default:first-child .card-top img {
-    content: url("/src/img/202306-cupom-adega_topo.jpg");
+    content: url("../../img/202306-cupom-adega_topo.jpg");
     height: 100%;
     object-fit: cover;
   }
@@ -151,7 +151,7 @@
   }
 
   .card-default:last-child .card-top img {
-    content: url("/src/img/202306-cupom-destilado_topo.jpg");
+    content: url("../../img/202306-cupom-destilado_topo.jpg");
     height: 100%;
     object-fit: cover;
   }
